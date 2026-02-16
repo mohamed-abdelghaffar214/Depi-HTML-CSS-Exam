@@ -74,3 +74,26 @@ p {
     font-size: clamp(1rem, 1.4rem, 3rem);
 }
 ```
+
+## 8- In the context of CSS performance, what is 'Layout Thrashing'?
+
+Layout thrashing is a performance problem that happens when Javascript changes the layout and reads it multiple times in quick succession, causing the browser to recalculate layout every second.
+
+## 9- What is the best way to code three choices within a form input so that the user can select only one item?
+
+Dropdown menu is the best way, since it saves space in the form for other elements.
+
+```html
+<select id="choice" name="choice">
+    <option value="placeholder">select</option>
+    <option value="choice 1">One</option>
+    <option value="choice 2">Two</option>
+    <option value="choice 3">Three</option>
+</select>
+```
+
+## 10- Using the :nth-child pseudo-class, what would be the most efficient way to style every third item in a list, no matter how many items are present, starting with item 2?
+
+```css
+li:nth-child(3n + 2) { }
+```
