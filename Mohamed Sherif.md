@@ -134,3 +134,7 @@ Code 4 creates a table with one row and three cells. the first one is a header c
 ### 2- Which element(s) will be blue?
 
 `<p>` elements called P3 and P4 will be blue
+
+## Question 4
+
+See HTML and CSS files.

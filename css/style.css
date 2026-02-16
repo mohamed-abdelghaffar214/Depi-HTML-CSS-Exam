@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Agatho Black';
+    src: url("Agatho-Black.otf");
+}
+.container {
+    padding: 0 1.4rem;
+    margin: 0 auto;
+    text-align: center;
+}
+.section-header {
+    font-family: 'Agatho Black', 'Arial', sans-serif;
+    font-size: 2.4rem;
+    margin-bottom: 0;
+}
+.section-secondary {
+    font-family: 'Century Gothic', sans-serif;
+    color: grey;
+}
+
+.grid {
+    display: grid;
+    margin: 0 4rem;
+}
+.row {
+    display: flex;
+    margin: 0.5rem auto;
+}
+.row img {
+    height: 250px;
+    aspect-ratio: 1;
+    border-radius: 5%;
+    margin: 0 0.5rem;
+}
+
+
+
+.gallery {
+    margin: 0 4rem;
+}
+.card {
+    display: inline-block;
+    margin: 0.5rem;
+}
+.card img {
+    height: 250px;
+    border-radius: 5%;
+}
+@media (max-width: 1270px)
+{
+    .card img { height: 200px; }
+}
+@media (max-width: 1080px)
+{
+    .card img { height: 185px; }
+}
+@media (max-width: 1025px)
+{
+    .card img { height: 175px; }
+}
+@media (max-width: 980px)
+{
+    .card img { height: 150px; }
+}
